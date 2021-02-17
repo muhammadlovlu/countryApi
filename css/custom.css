@@ -1,0 +1,53 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif; */
+
+
+
+
+* {
+    margin : 0;
+    padding: 0;
+    border :0;
+}
+
+body{
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed; 
+    text-align: center;
+}
+h1{
+    color:white;
+    font-family: 'Lobster', cursive;
+    top :80px; 
+}
+h4{
+    color:white;
+    font-family: 'Lobster', cursive;
+    top :80px;
+}
+input{
+    width: 400px;
+    height: 50px;
+}
+button{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
+.highlights{
+    padding-left: 10px;
+    position: relative;
+    top:120px;
+    color: black;
+    text-align: left;
+    background-color:beige;
+    width: 140px;
+
+}
