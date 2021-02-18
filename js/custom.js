@@ -1,11 +1,10 @@
-document.getElementById("search").addEventListener('click', function (){
+document.getElementById("search").addEventListener('click', function () {
     dataLoad();
-})
 
+})
 async function dataLoad() {
     const InputValue = document.getElementById("input-Text").value;
     const api = `https://restcountries.eu/rest/v2/name/${InputValue}`;
-    console.log(api)
     const res = await fetch(api);
     const data = await res.json();
     const countryNameData = document.getElementById("countryName");
@@ -29,10 +28,7 @@ async function dataLoad() {
     countryFlag.src = data[0].flag;
     document.getElementById("highlights").style.display = "none";
     document.getElementById("results").style.display = "block";
-
 }
-
-
 
 // async function dataLoad (){
 //     const res = await fetch("https://restcountries.eu/rest/v2/name/Bangladesh");
