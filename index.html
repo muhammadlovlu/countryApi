@@ -20,13 +20,10 @@
     <section class="container">
         <h1>Your Country Name</h1>
         <!--Container section start-->
-        <input class="input bg-light border rounded-pill p-4 mb-2" type="text" placeholder="Country Name">
-        <button class="btn rounded-pill bg-primary">Search</button>
-        
+        <input id="input-Text" class="input bg-light border rounded-pill p-4 mb-2" type="text" placeholder="Country Name">
+        <button id="search" class="btn rounded-pill bg-primary">Search</button>
     </section>
     <!--Container section end-->
-
-
     <!-- Highlight section start-->
     <section class="highlight">
         <div>
@@ -35,31 +32,22 @@
         <div class="row">
             <div class="col">
                 <div class="country border rounded-3">
-                    <h5>Bangladesh</h5>
-                    <p>Population:<span id="population"></span></p>
-                    <p>Area:<span id="area"></span></p>
-                    <p>Capital:<span id="capital"></span></p>
-                    <p>Calling Code:<span id="callCode"></span></p>
-                    <p>Region:<span id="region"></span></p>
-                    <p>Borders:<span id="borders"></span></p>
-                    <p>TimeZone:<span id="timezone"></span></p>
-                    <p>Flag:<span id="flag"></span></p>
+                    <h5 id="countryName"></h5>
+                    <p>Population: <span id="population"></span></p>
+                    <p>Area: <span id="area"></span></p>
+                    <p>Capital: <span id="capital"></span></p>
+                    <p>Calling Code: <span id="callCode"></span></p>
+                    <p>Region: <span id="region"></span></p>
+                    <p>Borders: <span id="borders"></span></p>
+                    <p>TimeZone: <span id="timezone"></span></p>
+                    <p>Flag: <img id="flag" src="" alt=""> </p>
 
                 </div>
-                
+
             </div>
         </div>
     </section>
     <!-- Highlight section end-->
-
-
-
-
-
-
-
-
-
 
     <script src="js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"

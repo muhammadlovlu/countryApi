@@ -46,6 +46,11 @@ button{
     width: 140px;
 
 }
+#flag{
+    width: 200px;
+    height:200px;
+    display: none;
+}
 
 .country {
     padding :10px; 
