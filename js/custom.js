@@ -27,6 +27,3 @@ async function dataLoad() {
     countryFlag.src = data[0].flag;
     document.getElementById("results").style.display = "block";
 }
-
-
-
