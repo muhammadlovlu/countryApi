@@ -1,6 +1,5 @@
 document.getElementById("search").addEventListener('click', function () {
     dataLoad();
-
 })
 async function dataLoad() {
     const InputValue = document.getElementById("input-Text").value;
