@@ -44,7 +44,13 @@ button{
     text-align: left;
     background-color:beige;
     width: 140px;
-
+}
+#results{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    /* display: none; */
 }
 #flag{
     width: 200px;
