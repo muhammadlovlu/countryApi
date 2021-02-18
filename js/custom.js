@@ -26,7 +26,6 @@ async function dataLoad() {
     document.getElementById("flag").style.display = "inline-block";
     const countryFlag = document.getElementById("flag");
     countryFlag.src = data[0].flag;
-    document.getElementById("highlights").style.display = "none";
     document.getElementById("results").style.display = "block";
 }
 
